@@ -1,0 +1,2 @@
+# pynote
+Playing with python
