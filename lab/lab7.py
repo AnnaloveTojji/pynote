@@ -1,1 +1,1 @@
-# lists - advanced
+# lists: exercises-basic

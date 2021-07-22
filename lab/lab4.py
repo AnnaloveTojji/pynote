@@ -1,6 +1,5 @@
-# July 17
+# conditional execution - exercises
 # nested 'if' 
-
 
 # rock, paper, scissors - level 1
 print("*** rock, paper, scissors w/o user input ***")

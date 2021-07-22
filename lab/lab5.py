@@ -1,4 +1,4 @@
-# July 17
+# loops - exercises
 # nested loops: 'for', 'while' 
 
 # nine times table - using 'for'
