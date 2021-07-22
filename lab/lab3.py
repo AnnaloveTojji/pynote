@@ -1,6 +1,14 @@
 # conditional statement: 'if'
 print("Let's practice conditional statmenets!")
 
+# even or odd number
+print("*** even-or-odd number ***")
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("Even")
+else:
+   print("Odd")
+
 #grade calculator
 print("*** grade calculator ***")
 score = int(input("Please enter a score:"))
