@@ -1,5 +1,4 @@
-# conditional statement: 'if'
-print("Let's practice conditional statmenets!")
+# 'if' statements
 
 # even or odd number
 print("*** even-or-odd number ***")

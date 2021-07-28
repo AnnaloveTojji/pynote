@@ -1,4 +1,3 @@
-# conditional execution - exercises
 # nested 'if' 
 
 # rock, paper, scissors - level 1
