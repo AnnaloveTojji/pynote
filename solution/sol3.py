@@ -1,9 +1,9 @@
-#백준 2884: 알람시계;
+#백준 2884: 알람시계
 
 # method 1: using two inputs
 
-hour = input("Enter the hour: ")
-minute = input("Enger the minute")
+hour = int(input("Enter the hour: "))
+minute = int(input("Enger the minute: "))
 
 if minute > 44:
     print(hour, minute-45)

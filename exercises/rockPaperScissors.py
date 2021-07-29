@@ -36,3 +36,10 @@ elif user_action == "scissors":
     else: #case7
         print("Rock smashes scissors! You lose.")
 
+# checking and forcing user input
+# user input validation
+while True:
+	player1 = input("Enter a choice (r, p s): 다른 건 말고!!! ")
+	if player1 == 'r' or 'p' or 's':
+		break 
+
