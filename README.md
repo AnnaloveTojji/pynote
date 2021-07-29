@@ -1,7 +1,8 @@
-# pynote by Ms.Abby
-### Hi!
+# pynote 
+## by Ms.Abby
+Hi!
 I made this for my students. The main purpose of pynote is providing step-by-step python tutorial that anyone can follow and learn. If you are a coder starting python, I encourage you to run files in 'lab' folder and work on exercise problems.
-### What's in this project
+# What's in this project
 - 'lab': class materials.
 - 'soultion': basic problems and solutions in python 
 - 'exercises': basic program for practicing
