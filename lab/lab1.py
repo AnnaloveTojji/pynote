@@ -1,5 +1,5 @@
 # July 17
-# the 'hello world' and variables
+# variables
 
 #my first program
 print ("hello world\n")
