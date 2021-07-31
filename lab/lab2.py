@@ -1,4 +1,13 @@
 #turtle graphics
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("light green")
+wn.title("Turtle")
+skk = turtle.Turtle()
 
-# operators
-print ( 1 + 10)
+
+for i in range(4):
+    skk.forward(50)
+    skk.right(90)
+
+turtle.done()
