@@ -5,7 +5,6 @@ I made this for my students. The main purpose of pynote is providing step-by-ste
 # What's in this project
 - 'lab': class materials
 - 'soultion': basic problems and solutions in python 
-- 'exercises': basic program for practicing
 
 ### Have fun coding!
 
