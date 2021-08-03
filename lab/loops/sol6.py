@@ -1,13 +1,13 @@
 # 백준 1110: 더하기싸이클
 
-input_num = int(input())
-num = input_num  
+n = int(input())
+temp = n  
 cnt = 0
 while True:
-    sum = (num // 10) + (num % 10)  
-    new_num = ((num % 10) * 10) + (sum % 10) 
+    sum = (temp // 10) + (temp % 10)  
+    new_num = ((temp % 10) * 10) + (sum % 10) 
     cnt += 1  
-    if new_num == input_num :
+    if new_num == n :
         break
-    num = new_num  
+    num = new_num 
 print(cnt)
