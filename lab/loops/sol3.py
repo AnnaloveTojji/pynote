@@ -5,6 +5,14 @@ print("*** 'for' tree ***")
 for x in range(1, 6):
     print(' '* (5 - x) + '*' * ( x * 2 - 1))
 
+# using definition
+def xmas(n):
+    for i in range(n):
+        for j in range(n-i):
+            print(' ', end=' ')
+        for k in range(2*i+1):
+            print('*',end=' ')
+        print()
 
 #using 'while' - print a christmas tree
 print("*** 'while' tree ***")
