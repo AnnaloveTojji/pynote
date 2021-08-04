@@ -1,6 +1,5 @@
 # aliquot sum
 
-
 # Python 3 program for aliquot sum
  
 # Function to calculate sum of

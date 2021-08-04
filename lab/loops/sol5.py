@@ -1,4 +1,4 @@
-# 백준: 10871
+# 백준: 10871 x보다 작은 수
 # method 1: 
 count = int(input())
 num = int((input))
