@@ -1,12 +1,12 @@
 #bj 10818: min, max
 
-numbers = int(input())
-number_list = list(map(int, input().split()))
-max_num = number_list[0]
-min_num = number_list[0]
-for num in number_list:
-    if num > max_num:
-        max_num = num
-    if num < min_num:
-        min_num = num
-print(min_num, max_num)
+n = int(input())
+numbers = list(map(int, input().split()))
+max = numbers[0]
+min = numbers[0]
+for i in numbers:
+    if i > max:
+        max = i
+    if i < min:
+        min = i
+print(min, max)
