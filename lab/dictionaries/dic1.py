@@ -137,3 +137,4 @@ print(len(squares))
 
 # Output: [0, 1, 3, 5, 7, 9]
 print(sorted(squares))
+
