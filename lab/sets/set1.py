@@ -1,6 +1,3 @@
-# sets
-
-# creating sets
 # Different types of sets in Python
 # set of integers
 my_set = {1, 2, 3}
@@ -40,8 +37,6 @@ a = set()
 # check data type of a
 print(type(a))
 
-# modyfying
-
 # initialize my_set
 my_set = {1, 3}
 print(my_set)
@@ -65,8 +60,6 @@ print(my_set)
 # Output: {1, 2, 3, 4, 5, 6, 8}
 my_set.update([4, 5], {1, 6, 8})
 print(my_set)
-
-# removing elements
 
 # Difference between discard() and remove()
 
@@ -117,8 +110,6 @@ print(my_set)
 
 print(my_set)
 
-# set operations
-
 # Set union method
 # initialize A and B
 A = {1, 2, 3, 4, 5}
@@ -128,7 +119,14 @@ B = {4, 5, 6, 7, 8}
 # Output: {1, 2, 3, 4, 5, 6, 7, 8}
 print(A | B)
 
-# set difference
+# Intersection of sets
+# initialize A and B
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+# use & operator
+# Output: {4, 5}
+print(A & B)
 
 # Difference of two sets
 # initialize A and B
@@ -139,7 +137,6 @@ B = {4, 5, 6, 7, 8}
 # Output: {1, 2, 3}
 print(A - B)
 
-# symmetric difference
 # Symmetric difference of two sets
 # initialize A and B
 A = {1, 2, 3, 4, 5}
@@ -148,3 +145,15 @@ B = {4, 5, 6, 7, 8}
 # use ^ operator
 # Output: {1, 2, 3, 6, 7, 8}
 print(A ^ B)
+
+# in keyword in a set
+# initialize my_set
+my_set = set("apple")
+
+# check if 'a' is present
+# Output: True
+print('a' in my_set)
+
+# check if 'p' is present
+# Output: False
+print('p' not in my_set)
