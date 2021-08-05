@@ -3,7 +3,7 @@ a = int(input())
 for _ in range(a):
     count = 0
     arr = list(map(int, input().split()))
-    avg = (sum(arr)-arr[0])/arr[0] #sum(arr)-arr[0] == sum(arr[1:])
+    avg = (sum(arr)-arr[0])/arr[0] 
     for i in arr[1:]:
         if i > avg:
             count+=1
