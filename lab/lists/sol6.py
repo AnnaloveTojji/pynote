@@ -1,3 +1,4 @@
+# 백준 2577: 숫자의 개수
 nums = set()  # 중복되는 요소를 제거
 for _ in range(10):
     i = int(input())
