@@ -1,4 +1,4 @@
-# lists: exercises-basic
+# lists: exercises
 
 # ex1
 # sum every element in a list
