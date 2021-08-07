@@ -1,7 +1,6 @@
 # 백준 8958: OX 퀴즈
 
 n = int(input())
-
 for i in range(n):
     a = input()
     score = 0
