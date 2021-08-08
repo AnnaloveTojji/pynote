@@ -1,4 +1,3 @@
-
 #grade calculator
 print("*** grade calculator ***")
 score = int(input("Please enter a score:"))
