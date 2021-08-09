@@ -4,26 +4,26 @@ import time
 word = ["cat", "dog", "fox", "monkey", "mouse", "panda", "frog", "snake", "wolf"]
 
 n = 1
-print("[타자 게임] 준비되면 엔터!")
+print("Press 'enter' to start!")
 input()
 start = time.time()
 
 question = random.choice(word)
 
 while n <= 5:
-    print("*문제",n)
+    print("*word",n)
     print(question)
     answer = input()
 
     if (question == answer):
-        print("통과!")
+        print("Success!")
         n = n+1
         question = random.choice(word)
 
     else :
-        print("오타! 다시 도전!")
+        print("Fail!")
 
 end = time.time()
 et = end - start
 et = format(et, ".2f")
-print("타자 시간 :", et, "초")
+print("time :", et, "seconds")
