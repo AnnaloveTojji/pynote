@@ -60,7 +60,7 @@ positional_order = "{1}, {0} and {2}".format('John','Bill','Sean')
 print('\n--- Positional Order ---')
 print(positional_order)
 
-# order using keyword argument
-keyword_order = "{s}, {b} and {j}".format(j='John',b='Bill',s='Sean')
-print('\n--- Keyword Order ---')
-print(keyword_order)
+# order using keywords argument
+keywords_order = "{s}, {b} and {j}".format(j='John',b='Bill',s='Sean')
+print('\n--- Keywords Order ---')
+print(keywords_order)

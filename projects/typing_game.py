@@ -1,27 +1,27 @@
 import random
 import time
 
-word = ["cat", "dog", "fox", "monkey", "mouse", "panda", "frog", "snake", "wolf"]
+words = ["cat", "dog", "fox", "monkey", "mouse", "panda", "frog", "snake", "wolf"]
 
 n = 1
 print("Press 'enter' to start!")
 input()
 start = time.time()
 
-question = random.choice(word)
+question = random.choice(words)
 
 while n <= 5:
-    print("*word",n)
+    print("-- word #{} --".format(n))
     print(question)
     answer = input()
 
     if (question == answer):
-        print("Success!")
+        print("** Success! **")
         n = n+1
-        question = random.choice(word)
+        question = random.choice(words)
 
     else :
-        print("Fail!")
+        print("** Fail! **")
 
 end = time.time()
 et = end - start

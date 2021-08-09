@@ -146,7 +146,7 @@ B = {4, 5, 6, 7, 8}
 # Output: {1, 2, 3, 6, 7, 8}
 print(A ^ B)
 
-# in keyword in a set
+# in keywords in a set
 # initialize my_set
 my_set = set("apple")
 
