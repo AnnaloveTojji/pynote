@@ -1,5 +1,5 @@
 #Accessing string characters in Python
-str = 'programiz'
+str = 'pythoncode'
 print('str = ', str)
 
 #first character

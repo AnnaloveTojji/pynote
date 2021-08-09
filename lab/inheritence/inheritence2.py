@@ -1,9 +1,3 @@
-# A Python program to demonstrate inheritance
-
-# Base or Super class. Note object in bracket.
-# (Generally, object is made ancestor of all classes)
-# In Python 3.x "class Person" is
-# equivalent to "class Person(object)"
 class Person(object):
 	
 	# Constructor
@@ -33,8 +27,7 @@ print(emp.getName(), emp.isEmployee())
 emp = Employee("Geek2") # An Object of Employee
 print(emp.getName(), emp.isEmployee())
 
-# Python code to demonstrate how parent constructors
-# are called.
+# calling parent constructors
 
 # parent class
 class Person( object ):	
