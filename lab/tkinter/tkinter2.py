@@ -1,4 +1,4 @@
-mport Tkinter as tk
+import tkinter as tk
 import sys
 
 def exit():
