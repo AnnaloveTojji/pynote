@@ -1,14 +1,13 @@
 # 백준 8958: OX 퀴즈
 
+
 n = int(input())
+
 for i in range(n):
-    a = input()
-    score = 0
-    res = 0
-    for j in a:
-        if j == 'O':
-            score += 1
-        else:
-            score = 0
-        res += score
-    print(res)
+    cnt = 0
+    x = input()
+    o_list = x.split('X')
+    for j in o_list:
+        for k in range(len(j)+1):
+            cnt += k
+    print(cnt)

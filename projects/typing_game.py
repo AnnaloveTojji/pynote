@@ -1,7 +1,7 @@
 import random
 import time
 
-words = ["cat", "dog", "fox", "monkey", "mouse", "panda", "frog", "snake", "wolf"]
+words = ["cat", "dog", "fox", "monkey", "mouse", "panda", "frog", "snake", "wolf", "veggie pizza is the best pizza"]
 
 n = 1
 print("Press 'enter' to start!")
@@ -24,6 +24,6 @@ while n <= 5:
         print("** Fail! **")
 
 end = time.time()
-et = end - start
-et = format(et, ".2f")
-print("time :", et, "seconds")
+time_game = end - start
+time_game = format(time_game, ".2f")
+print("time :", time_game, "seconds")
