@@ -3,7 +3,6 @@
 
 # method2: slicing
 n=int(input())
-cnt=0
 for j in range(n):
     word=input()
     for i in range(len(word)-1):
