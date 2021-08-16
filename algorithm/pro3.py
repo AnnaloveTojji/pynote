@@ -1,4 +1,4 @@
-#가장큰수
+# sorting 가장큰수
 
 def solution(numbers):
     numbers = list(map(str, numbers))

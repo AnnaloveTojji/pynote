@@ -1,4 +1,4 @@
-#체육복
+# greedy 체육복
 def solution(n, lost, reserve):
     answer = 0    
     reserve2 = [r for r in reserve if r not in lost]

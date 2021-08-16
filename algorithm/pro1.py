@@ -3,6 +3,7 @@
 def solution(participant, completion):
     ans = ""
     d = {} #empty dictionary
+    d ={participant: [] for participant in range(4)}
     for i in participant:
         d[i] +=1
     for i in completion:
@@ -14,6 +15,8 @@ def solution(participant, completion):
     return ans
 
 
+print(solution(["marina", "josipa", "nikola", "vinko", "filipa"],
+["josipa", "filipa", "marina", "nikola"]))
 
 # others
 # def solution(participant, completion):
