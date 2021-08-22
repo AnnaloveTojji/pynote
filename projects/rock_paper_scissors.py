@@ -1,3 +1,4 @@
+import random
 class enemy:
     def __init__(self):
         self.win_count = 0;

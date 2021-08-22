@@ -3,7 +3,8 @@
 def solution(participant, completion):
     ans = ""
     d = {} #empty dictionary
-    d ={participant: [] for participant in range(4)}
+    #d ={participant: [] for participant in range(4)}
+    #d = dict.fromkeys([participant],0)
     for i in participant:
         d[i] +=1
     for i in completion:
