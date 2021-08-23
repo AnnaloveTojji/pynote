@@ -7,5 +7,5 @@ for _ in range(a):
     for i in arr[1:]:
         if i > avg:
             count+=1
-    r = count/arr[0]*100
-    print(f"{r:.3f}%")
+    res = count/arr[0]*100
+    print(f"{res:.3f}%")
