@@ -1,5 +1,5 @@
 from tkinter import *
-from PIL import ImageTk, Image
+from Pillow import ImageTk, Image
 
 root = Tk()
 root.title('my project')
@@ -24,10 +24,31 @@ def forward(image_number):
     global button_forward
     global button_back
     my_label.grid_forget()
+    my_label=Label(image=image_list[image_number-1])
+    button_forward = Button(root, text=">>", command=lambda: forward(image_number+1))
+    button_back=Button(root,text="<<",command=lambda: back(image_number-1))
+    
+    my_label.grid(row=0,column=0,comlumnspan=3)
+    button_back.grid(row=1,column=0)
+    button_forward.gird(row=1, column=2)
+
+
+
 def back():
     global my_label
     global button_forward
     global button_back
+
+    my_label.grid_forget()
+    my_label=Label(image=image_list[image_number-1])
+    button_forward = Button(root, text=">>", command=lambda: forward(image_number+1))
+    buttom_back=Button(root,text="<<",command=lambda: back(image_number-1))
+    my_label.grid(row=0,column=0,comlumnspan=3)
+
+    my_label.grid(row=0,column=0,comlumnspan=3)
+    button_back.grid(row=1,column=0)
+    button_forward.gird(row=1, column=2)
+
 
 
 # control buttons
