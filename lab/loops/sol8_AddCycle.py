@@ -3,7 +3,6 @@
 num = int(input())
 init = num
 new_num = 0
-temp = 0
 count = 0
 while True:
     #temp = num//10 + num%10
