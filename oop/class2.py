@@ -1,6 +1,3 @@
-
-
-
 class Student:
     student_id = 'V10'
     student_name = 'Jacqueline Barnett'
