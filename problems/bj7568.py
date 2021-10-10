@@ -1,4 +1,4 @@
-#덩치 
+#bj7568 덩치 
 num_student = int(input())
 student_list = []
 
