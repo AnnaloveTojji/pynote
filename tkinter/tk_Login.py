@@ -21,7 +21,7 @@ def Loginform():
     #setting height and width of screen
     login_screen.geometry("300x250")
     #declaring variable
-    global  message;
+    global message
     global username
     global password
     username = StringVar()
