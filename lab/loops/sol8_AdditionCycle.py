@@ -1,5 +1,4 @@
 # #더하기 사이클
-
 num = int(input())
 init = num
 new_num = 0

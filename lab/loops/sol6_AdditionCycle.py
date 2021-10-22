@@ -1,5 +1,4 @@
 # 백준 1110: 더하기싸이클
-
 n = int(input())
 init = n  
 cnt = 0
