@@ -54,7 +54,7 @@ else:
     print("No items left.")
 
 # program to display student's marks from record
-student_name = 'Soyuj'
+student_name = 'Jiwon'
 
 marks = {'James': 90, 'Jules': 55, 'Arthur': 77}
 
