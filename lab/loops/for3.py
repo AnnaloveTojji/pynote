@@ -49,10 +49,10 @@ print (computeGCD(60,48))
 
 def computeGCD(x, y):
 
-while(y):
-	x, y = y, x % y
+    while(y):
+        x, y = y, x % y
 
-return x
+    return x
 
 a = 60
 b= 48

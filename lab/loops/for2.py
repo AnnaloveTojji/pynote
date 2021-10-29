@@ -18,7 +18,7 @@ num2 = 24
 
 print("The H.C.F. is", compute_hcf(num1, num2))
 
-# Function to find HCF the Using Euclidian algorithm
+# Function to find HCF the Using Euclidean algorithm
 def compute_hcf(x, y):
    while(y):
        x, y = y, x % y
