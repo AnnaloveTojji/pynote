@@ -1,6 +1,6 @@
 #heap 더맵게
-	def solution(scoville, K):
-    import heapq
+import heapq
+def solution(scoville, K):
     answer = 0
     heapq.heapify(scoville) #list to heapq
     
