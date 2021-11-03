@@ -1,29 +1,26 @@
 # heap-완주하지 못한선수
-# abby
-def solution(participant, completion):
-    ans = ""
-    d = {} #empty dictionary
-    #d ={participant: [] for participant in range(4)}
-    #d = dict.fromkeys([participant],0)
-    for i in participant:
-        d[i] +=1
-    for i in completion:
-        d[i] -=1
-    for i in d:
-        if i.values > 0:
-            ans = i.keys
-            break
-    return ans
+# sol1 -dictionary
+def solution(participant,completion):
+    d={}
+    for x in participant:
+        d[x]=d.get(x,0)+1
+    for x in completion:
+        d[x]-=1
+        dnf=[k for k, v in d.items() if v >0]
+        answer=dnf[0]
+    return answer
+
+
+
+# sol2 -sort
+def solution2(participant, completion):
+    participant.sort()
+    completion.sort()
+    for i in range(len(completion)):
+        if participant[i] != completion[i]:
+            return participant[i]
+    return participant[len(participant)-1]
 
 
 print(solution(["marina", "josipa", "nikola", "vinko", "filipa"],
 ["josipa", "filipa", "marina", "nikola"]))
-
-# others
-# def solution(participant, completion):
-#     participant.sort()
-#     completion.sort()
-#     for p,c in zip(participant, completion):
-#         if p != c:
-#             return p
-#     return participant.pop()
