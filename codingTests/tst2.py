@@ -1,4 +1,5 @@
 # naver -3
+# 학생이 맞힌 문제 번호와 부분 점수가 주어질 때, 부정행위를 한 학생의 학번
 def solution(logs):
     answer = []
     lst = []

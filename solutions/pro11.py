@@ -11,5 +11,6 @@ def solution(number, k):
             break
         collected.append(num)
 
+        collected = collected[:-k] if k > 0 else collected
+        answer = ''.join(collected)
         return answer
-        

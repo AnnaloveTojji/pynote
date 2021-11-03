@@ -1,29 +1,13 @@
-# 
-# Function to find the maximum sum of a contiguous subarray
-# in a given integer array
-def kadane(A):
- 
-    # stores the maximum sum sublist found so far
-    max_so_far = 0
- 
-    # stores the maximum sum of sublist ending at the current position
-    max_ending_here = 0
- 
-    # traverse the given list
-    for i in A:
-        # update the maximum sum of sublist "ending" at index `i` (by adding the
-        # current element to maximum sum ending at previous index `i-1`)
-        max_ending_here = max_ending_here + i
- 
-        # if the maximum sum is negative, set it to 0 (which represents
-        # an empty sublist)
-        max_ending_here = max(max_ending_here, 0)
- 
-        # update the result if the current sublist sum is found to be greater
-        max_so_far = max(max_so_far, max_ending_here)
- 
-    return max_so_far
- 
- 
-res = kadane([5, 1, 9, 8, 10, 5])
-print(res)
+# publy -1
+# 주식 차익 발생까지의 최소 날
+def solution(price):
+    size = len(price)
+    answer = [-1] * size
+    
+    for i in range(size):
+        for j in range(i+1,size):
+            if price[i] < price[j]:
+                answer[i] = abs(i-j)
+                break
+    
+    return answer

@@ -1,32 +1,34 @@
-# O(n) solution in Python3 for finding
-# maximum sum of a subarray of size k
+#publy3 -3
+# unattacking rooks
 
-# Returns maximum sum in
-# a subarray of size k.
-def maxSum(estimates, k):
+for (int i = 0; i < boardSize; i++){
+    board[col][i] = 1;
+    if (canPlace(col, i, board)) {
+        nsolutions += findNumSolutions(board, col + 1, rooksLeft - 1);
+        board[col][i] = 0;
+    }
+ }
 
+ def solution(n, k):
+    answer = -1
+    res=n
+
+    row = [0 for i in range(n)]
+    col = [0 for i in range(n)]
+    
+    ri = 0
+    ci = 0
 	
-	# window of size k
-	res = 0
-	for i in range(k):
-		res += estimates[i]
-
-	# Compute sums of remaining windows by
-	# removing first element of previous
-	# window and adding last element of
-	# current window.
-	curr_sum = res
-	for i in range(k, len(estimates)):
-	
-		curr_sum += estimates[i] - estimates[i-k]
-		res = max(res, curr_sum)
-
-	return res
-
-# Driver code
-# estimates = [5, 1, 9, 8, 10, 5]
-# k = 3
-# n = len(arr)
-# print(maxSum(arr, k))
-
-# This code is contributed by Anant Agarwal.
+    while (res > 0):
+        while (row[ri] == 1):
+            ri += 1
+        while (col[ci] == 1):
+            ci += 1
+        answer+=1
+        ri += 1
+        ci += 1
+        res -= 1
+    
+    
+    
+    return answer
