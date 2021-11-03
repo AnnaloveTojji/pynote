@@ -3,7 +3,7 @@ def solution(N, number):
     s = [set() for x in range(8)]
     for i, x in enumerate(s, start=1):
         x.add(int(str(N)*i))
-    for i in range(len(s)):
+    for i in range(len(s)): #버그 수정
         for j in range(i):
             for op1 in s[j]:
                 for op2 in s[i - j - 1]:
