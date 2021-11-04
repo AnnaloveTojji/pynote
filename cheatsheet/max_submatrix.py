@@ -8,7 +8,6 @@
 # at addresses pointed by start and finish
 # pointers respectively.
 
-
 def kadane(arr, start, finish, n):
 
 	# initialize sum, maxSum and

@@ -17,8 +17,7 @@ arr = [3, 5, 4, 2, 6, 5, 6, 6, 5, 4, 8, 3]
 n = len(arr)
 x = 3
 y = 6
-print("Minimum distance between ", x, " and ",
-	y, "is", minDist(arr, n, x, y))
+print(minDist(arr, n, x, y))
 
 
 ################################
@@ -26,7 +25,7 @@ print("Minimum distance between ", x, " and ",
 
 import sys
 
-def minDist(arr, n, x, y):
+def minDist2(arr, n, x, y):
 	
 	#previous index and min distance
 	i=0
@@ -50,7 +49,7 @@ def minDist(arr, n, x, y):
 	
 	#If distance is equal to int max
 	if(min_dist == sys.maxsize):
-	return -1
+		return -1
 	return min_dist
 
 
@@ -59,6 +58,6 @@ arr = [3, 5, 4, 2, 6, 3, 0, 0, 5, 4, 8, 3]
 n = len(arr)
 x = 3
 y = 6
-print ("Minimum distance between %d and %d is %d\n"%( x, y,minDist(arr, n, x, y)));
+print (minDist2(arr, n, x, y))
 
 # This code is contributed by Shreyanshi Arun.

@@ -1,3 +1,4 @@
+# longest common subsequence
 cache = {}
 def lcs(s1, s2):
   global cache

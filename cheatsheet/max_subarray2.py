@@ -23,10 +23,10 @@ def maxSum(estimates, k):
 
 	return res
 
-# Driver code
-# estimates = [5, 1, 9, 8, 10, 5]
-# k = 3
-# n = len(arr)
-# print(maxSum(arr, k))
+#Driver code
+estimates = [5, 1, 9, 8, 10, 5]
+k = 3
+n = len(arr)
+print(maxSum(arr, k))
 
 # This code is contributed by Anant Agarwal.
