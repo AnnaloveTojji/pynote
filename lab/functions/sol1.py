@@ -2,7 +2,6 @@ def celsiusConversion(celius):
     fahrenheit = (celsius * 1.8) + 32
     return fahrenheit
 
-
 # Python Program to convert temperature in celsius to fahrenheit
 
 # change this value for a different result
