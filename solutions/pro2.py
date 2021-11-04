@@ -1,4 +1,4 @@
-# greedy 체육복
+# 체육복 -greedy
 #solution1 - dictionary 
 def solution(n, lost, reserve):
     u = [1] * (n + 2)  # initialize with 1

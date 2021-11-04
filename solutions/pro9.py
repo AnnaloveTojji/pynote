@@ -1,4 +1,4 @@
-# n으로 표현
+# n으로 표현 -dp
 def solution(N, number):
     s = [set() for x in range(8)]
     for i, x in enumerate(s, start=1):
@@ -20,4 +20,5 @@ def solution(N, number):
     return answer
 
         
-                    
+print(solution(5, 12)) #4
+print(solution(2, 11)) #3

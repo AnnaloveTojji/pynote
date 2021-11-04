@@ -1,4 +1,4 @@
-# 여행경로
+# 여행경로 -dfs/bfs
 def solution(tickets):
     routes = {}
     for t in tickets:
@@ -15,3 +15,9 @@ def solution(tickets):
             stack.append(routes[top][-1])
             routes[top] = routes[top][:-1]
     return path[::-1]       
+
+
+print(solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]))
+# ["ICN", "JFK", "HND", "IAD"]
+print(solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]))
+# ["ICN", "ATL", "ICN", "SFO", "ATL", "SFO"]

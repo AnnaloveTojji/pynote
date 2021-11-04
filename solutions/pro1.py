@@ -1,4 +1,4 @@
-# heap-완주하지 못한선수
+# 완주하지 못한선수 -hash
 # sol1 -dictionary
 def solution(participant,completion):
     d={}
