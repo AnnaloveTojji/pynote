@@ -3,7 +3,7 @@
 # fancier output
 
 # print integer and float value
-print("programming : %2d, Portal : %5.2f" % (1, 05.333))
+print("programming : %2d, Portal : %5.2f" % (1, 5.333))
 
 # print integer value
 print("Total students : %3d, Boys : %2d" % (240, 120))

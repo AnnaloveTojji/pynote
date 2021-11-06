@@ -7,6 +7,6 @@ min = numbers[0]
 for i in numbers:
     if i > max:
         max = i
-    if i < min:
+    elif i < min:
         min = i
 print(min, max)
