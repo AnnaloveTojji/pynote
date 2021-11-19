@@ -7,7 +7,7 @@ n =int(input())
 for i in range(n):
     x,y,score=map(int,input("x,y,score: ").split())
     lst.append([x,y,score])
-lst.sort(key=lambda x: (x[2],x[0]), reverse=True)
+lst.sort(key=lambda x: (x[2]), reverse=True)
 cntlist = [0]*n
 count = 0
 
@@ -20,6 +20,12 @@ for i in lst:
         if cntlist[idx] < 3:
             print (i[0], i[1])
             count += 1
+
+# list comprehension
+n =int(input())
+nlist = [input().split() for i in range(n)]
+nlist2 = [[int(y) for y in x] for x in nlist]
+nlist2.sort(key=lambda x: -(x[2]))
 
 # wrong way!
 n =int(input())
@@ -35,6 +41,6 @@ if nlist[0][0] == nlist[1][0]:
         print("**log",count)
 for i in (0,1,count):
     print(nlist[i][:2])
-    
+
 
 

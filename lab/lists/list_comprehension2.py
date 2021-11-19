@@ -1,5 +1,5 @@
 # source: programiz
-
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = [x if x != "banana" else "orange" for x in fruits]
 
 h_letters = [ letter for letter in 'human' ]
